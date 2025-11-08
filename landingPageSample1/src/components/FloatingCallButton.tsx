@@ -4,7 +4,7 @@ export const FloatingCallButton = () => {
   return (
     <a
       href={`tel:${companyProfile.phone}`}
-      className="fixed bottom-24 right-8 z-40 md:hidden bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 motion-safe:transition-all motion-safe:hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2"
+      className="fixed bottom-24 right-8 z-40 md:hidden bg-accent-700 text-white p-4 rounded-full shadow-lg hover:bg-accent-800 motion-safe:transition-all motion-safe:hover:scale-110 focus:outline-none focus:ring-2 focus:ring-accent-600 focus:ring-offset-2"
       aria-label={`Call us at ${companyProfile.phone}`}
       title={`Call ${companyProfile.phone}`}
     >

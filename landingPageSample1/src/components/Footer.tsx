@@ -24,18 +24,18 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-accent-950 text-cream-200">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-4">{companyProfile.name}</h3>
+            <h3 className="text-cream-50 text-lg font-bold mb-4">{companyProfile.name}</h3>
             <p className="text-sm mb-4">{companyProfile.description}</p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-4 uppercase tracking-wider">
+            <h4 className="text-cream-50 text-sm font-semibold mb-4 uppercase tracking-wider">
               Quick Links
             </h4>
             <ul className="space-y-2">
@@ -55,7 +55,7 @@ export const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-4 uppercase tracking-wider">
+            <h4 className="text-cream-50 text-sm font-semibold mb-4 uppercase tracking-wider">
               Contact
             </h4>
             <ul className="space-y-2 text-sm">
@@ -89,7 +89,7 @@ export const Footer = () => {
 
           {/* Social Links */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-4 uppercase tracking-wider">
+            <h4 className="text-cream-50 text-sm font-semibold mb-4 uppercase tracking-wider">
               Follow Us
             </h4>
             <div className="flex space-x-4">
@@ -170,7 +170,7 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-gray-800 text-center text-sm">
+        <div className="pt-8 border-t border-accent-900 text-center text-sm">
           <p>
             &copy; {currentYear} {companyProfile.name}. All rights reserved.
           </p>

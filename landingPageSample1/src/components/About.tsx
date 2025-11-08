@@ -2,7 +2,7 @@ import { companyProfile } from '../data/content';
 
 export const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 bg-cream-100">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -47,7 +47,7 @@ export const About = () => {
 
           {/* Image Placeholder */}
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-accent-100 to-accent-200 rounded-lg shadow-xl flex items-center justify-center">
+            <div className="aspect-square bg-gradient-to-br from-cream-300 to-accent-100 rounded-lg shadow-xl flex items-center justify-center">
               {/* Placeholder SVG */}
               <svg
                 className="w-32 h-32 text-accent-400"

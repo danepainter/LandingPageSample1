@@ -5,18 +5,31 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Golden Luxe color palette
+        cream: {
+          50: '#fdfcf9',
+          100: '#faf8f3',
+          200: '#f5f1e7',
+          300: '#ede7c7', // Primary cream
+          400: '#e5ddb0',
+          500: '#ddd399',
+          600: '#c9ba7a',
+          700: '#b5a15b',
+          800: '#8a7a46',
+          900: '#5f5331',
+        },
         accent: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
-          950: '#082f49',
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#dc2626',
+          600: '#8b0000', // Primary red
+          700: '#7a0000',
+          800: '#5b0202', // Dark maroon
+          900: '#450101',
+          950: '#200e01', // Very dark brown
         },
       },
       fontFamily: {

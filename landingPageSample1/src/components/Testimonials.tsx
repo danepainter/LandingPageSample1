@@ -17,7 +17,7 @@ export const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-gray-50 border border-gray-200 rounded-lg p-8 hover:shadow-lg motion-safe:transition-shadow"
+              className="bg-cream-50 border border-cream-300 rounded-lg p-8 hover:shadow-lg motion-safe:transition-shadow"
             >
               {/* Quote Icon */}
               <svg

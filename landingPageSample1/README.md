@@ -117,6 +117,16 @@ landingPageSample1/
 └── README.md                # This file
 ```
 
+## 🎨 Color Palette
+
+The landing page uses the **Golden Luxe** color scheme:
+- **Cream** (#EDE7C7) - Elegant backgrounds
+- **Deep Red** (#8B0000) - Primary accent
+- **Dark Maroon** (#5B0202) - Rich accents
+- **Rich Brown** (#200E01) - Dark elements
+
+See `COLOR_PALETTE.md` for complete color documentation.
+
 ## 🎨 Customization Checklist
 
 ### 1. Update Company Information
@@ -143,13 +153,18 @@ Edit `index.html`:
 
 ### 3. Update Branding
 
-**Colors**: Edit `tailwind.config.ts`
+**Colors**: The site currently uses the **Golden Luxe** palette (see `COLOR_PALETTE.md`).
+To customize, edit `tailwind.config.ts`:
 ```ts
 colors: {
+  cream: {
+    300: '#ede7c7', // Primary cream
+    // ... other shades
+  },
   accent: {
-    // Update these color values to match your brand
-    500: '#0ea5e9', // Primary brand color
-    600: '#0284c7', // Hover state
+    600: '#8b0000', // Primary red
+    800: '#5b0202', // Dark maroon
+    950: '#200e01', // Rich brown
     // ... other shades
   }
 }

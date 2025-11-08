@@ -270,6 +270,7 @@ landingPageSample1/
 - **README.md** - Complete technical documentation
 - **CUSTOMIZATION_GUIDE.md** - Step-by-step customization
 - **PROJECT_SUMMARY.md** - This file (overview)
+- **COLOR_PALETTE.md** - Golden Luxe color scheme documentation
 
 ## 🎉 Success Criteria - All Met!
 

@@ -62,7 +62,7 @@ export const FAQ = () => {
             return (
               <div
                 key={item.id}
-                className="border border-gray-200 rounded-lg overflow-hidden"
+                className="border border-cream-300 rounded-lg overflow-hidden bg-white"
                 ref={(el) => {
                   if (el) {
                     itemRefs.current.set(item.id, el);

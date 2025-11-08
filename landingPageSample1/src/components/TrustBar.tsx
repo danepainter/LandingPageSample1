@@ -16,7 +16,7 @@ const LogoPlaceholder = ({ name }: { name: string }) => (
 
 export const TrustBar = () => {
   return (
-    <section className="py-12 bg-white border-t border-b border-gray-200">
+    <section className="py-12 bg-cream-50 border-t border-b border-cream-300">
       <div className="container mx-auto px-4">
         <p className="text-center text-sm text-gray-500 mb-8 uppercase tracking-wider">
           Trusted By Leading Companies
